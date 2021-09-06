@@ -1,8 +1,78 @@
 body {
   padding: 50px;
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font: 14px;
+  background-color: rgb(199, 255, 182);
 }
 
-a {
-  color: #00b7ff;
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.avaDro {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color:rgb(2, 41, 2);
+  padding-bottom: 5%;
+}
+
+#droneName {
+  font-weight: bold;
+  color: rgb(70, 2, 70);
+}
+
+#nav {
+  color: palevioletred;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+#colunas {
+  text-align: center;
+  background-color: pink;
+  color: darkgreen;
+  border: dashed;
+  border-radius: 2%;
+  width: 300px;
+  margin-left: 3px;
+  margin-bottom: 5%;
+
+}
+
+.info{
+  padding-top:5px;
+}
+
+.butoes {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4%;
+}
+
+#create {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color:rgb(2, 41, 2);
+  padding-bottom: 5px;
+}
+
+.formulario {
+  margin-top: 5%;
+  padding-top: 8%;
+  text-align: center;
+  background-color: pink;
+  color: darkgreen;
+  border: dashed;
+  border-radius: 2%;
+  width: 1100px;
+  height: 250px;
+  margin-left: 3px;
 }
